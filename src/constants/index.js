@@ -204,6 +204,48 @@ const testimonials = [
 
 const projects = [
   {
+    name: "MPV-enhanced",
+    description:
+      "mpv is a free (as in freedom) media player for the command line. It supports a wide variety of media file formats, audio and video codecs, and subtitle types.",
+    tags: [
+      {
+        name: "glsl",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vapoursynth",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mpv,
+    source_code_link: "https://github.com/vamsikrishna71/mpv-vamsi",
+  },
+  {
+    name: "Plex-metamanager-CZ",
+    description:
+      "Plex metadata, collections, and playlists within a Plex Media Server. The script is designed to be run continuously and be able to update .",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "metadata",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vapoursynth",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: plex,
+    source_code_link: "https://github.com/vamsikrishna71/plex-metamanager",
+  },
+  {
     name: "Company CRM",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
@@ -244,48 +286,6 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/vamsikrishna71/crud-api",
-  },
-  {
-    name: "Mpv-enhanced",
-    description:
-      "mpv is a free (as in freedom) media player for the command line. It supports a wide variety of media file formats, audio and video codecs, and subtitle types.",
-    tags: [
-      {
-        name: "glsl",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "python",
-        color: "green-text-gradient",
-      },
-      {
-        name: "vapoursynth",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: mpv,
-    source_code_link: "https://github.com/vamsikrishna71/mpv-vamsi",
-  },
-  {
-    name: "Plex-metamanager-CZ",
-    description:
-      "Plex Meta Manager is an open source Python 3 project that has been designed to ease the creation and maintenance of metadata, collections, and playlists within a Plex Media Server. The script is designed to be run continuously and be able to update information based on sources outside your plex environment.",
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "metadata",
-        color: "green-text-gradient",
-      },
-      {
-        name: "vapoursynth",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: plex,
-    source_code_link: "https://github.com/vamsikrishna71/plex-metamanager",
   },
 ];
 
