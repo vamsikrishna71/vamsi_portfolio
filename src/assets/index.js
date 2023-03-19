@@ -32,10 +32,12 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import mpv from "./mpv.jpg";
+import plex from "./plex.png";
 
 export {
   logo,
   vk_logo,
+  plex,
   backend,
   creator,
   mobile,

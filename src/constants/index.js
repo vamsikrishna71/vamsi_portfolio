@@ -23,7 +23,9 @@ import {
   tripguide,
   threejs,
   mpv,
+  plex,
   tesla,
+  laravel,
 } from "../assets";
 
 export const navLinks = [
@@ -124,8 +126,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "May 2019 - April 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Analyzed and Integrated airline SOAP based APIs and REST APIs in bussiness travel booking portal.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "SKILLS:   PHP , XML , TWIG , MYSQL , APIs.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
@@ -133,13 +136,14 @@ const experiences = [
   {
     title: "Laravel Developer",
     company_name: "SS4U",
-    icon: tesla,
+    icon: laravel,
     iconBg: "#E6DEDD",
     date: "May 2021 - Jun 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using Laravel and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Implementing responsive design and ensuring cross-browser compatibility.","SKILLS:   HTML , CSS , PHP , LARAVEL 8 , BOOTSTRAP , APIS , MYSQL, LEAFLET MAPS",
+      "TOOLS:   POSTMAN , SOAPUI , VS-CODE.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
@@ -156,19 +160,19 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "May 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "May 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -205,11 +209,11 @@ const projects = [
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "blade",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
@@ -234,7 +238,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
@@ -247,20 +251,41 @@ const projects = [
       "mpv is a free (as in freedom) media player for the command line. It supports a wide variety of media file formats, audio and video codecs, and subtitle types.",
     tags: [
       {
-        name: "nextjs",
+        name: "glsl",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "python",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "vapoursynth",
         color: "pink-text-gradient",
       },
     ],
     image: mpv,
     source_code_link: "https://github.com/vamsikrishna71/mpv-vamsi",
+  },
+  {
+    name: "Plex-metamanager-CZ",
+    description:
+      "Plex Meta Manager is an open source Python 3 project that has been designed to ease the creation and maintenance of metadata, collections, and playlists within a Plex Media Server. The script is designed to be run continuously and be able to update information based on sources outside your plex environment.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "metadata",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vapoursynth",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: plex,
+    source_code_link: "https://github.com/vamsikrishna71/plex-metamanager",
   },
 ];
 
