@@ -26,7 +26,7 @@ import {
   plex,
   tesla,
   laravel,
-} from "../assets";
+} from "../assets"
 
 export const navLinks = [
   {
@@ -41,7 +41,7 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
-];
+]
 
 const services = [
   {
@@ -60,7 +60,7 @@ const services = [
     title: "Content Creator",
     icon: creator,
   },
-];
+]
 
 const technologies = [
   {
@@ -100,10 +100,10 @@ const technologies = [
     icon: mongodb,
   },
 
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
@@ -116,7 +116,7 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
-];
+]
 
 const experiences = [
   {
@@ -142,7 +142,8 @@ const experiences = [
     points: [
       "Developing and maintaining web applications using Laravel and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.","SKILLS:   HTML , CSS , PHP , LARAVEL 8 , BOOTSTRAP , APIS , MYSQL, LEAFLET MAPS",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "SKILLS:   HTML , CSS , PHP , LARAVEL 8 , BOOTSTRAP , APIS , MYSQL, LEAFLET MAPS",
       "TOOLS:   POSTMAN , SOAPUI , VS-CODE.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
@@ -173,7 +174,7 @@ const experiences = [
   //     "Participating in code reviews and providing constructive feedback to other developers.",
   //   ],
   // },
-];
+]
 
 const testimonials = [
   {
@@ -200,7 +201,7 @@ const testimonials = [
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
-];
+]
 
 const projects = [
   {
@@ -285,8 +286,29 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/vamsikrishna71/crud-api",
+    source_code_link: "https://github.com/vamsikrishna71/product-rest-api",
   },
-];
+  {
+    name: "Blog System",
+    description:
+      "Web application that enables users to post the contents providing a convenient or one can maintain their knowledge base directory to support.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/vamsikrishna71/policy-system",
+  },
+]
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects }
